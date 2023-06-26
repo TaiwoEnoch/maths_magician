@@ -52,9 +52,7 @@ This is the first project of the Math Magicians application. I set up the enviro
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Coming soon
+## 🚀 Live Demo <a name="https://astonishing-figolla-d6448b.netlify.app/"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
