@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: solid;
+}
+
+.paraText {
+  color: #000;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+
+.paraText:hover {
+  color: red;
+  transition: all 1s ease-out;
+}
+
+.heroPage {
+  margin-top: 5rem;
+}
+
+.Quote {
+  color: #000;
+  max-width: 500px;
+  margin: 5rem auto;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+
+.Quote:hover {
+  color: red;
+  transition: all 1s ease-out;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  padding: 7rem;
+  margin: 0 auto;
+  background-color: rgb(246, 228, 228);
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  transition: all 1s ease-out;
+}
+
+a:hover {
+  border-bottom: 1px solid #f2f2f2;
+  color: red;
+}
+
+.panel {
+  padding: 3rem;
+}
+
+table {
+  width: 70%;
+  max-width: 590px;
+  margin: 5rem auto;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+.row {
+  height: 5vh;
+}
+
+tr,
+td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+}
+
+tbody td {
+  width: 70vw;
+}
+
+tr.result td {
+  text-align: right;
+  padding: 1rem 0.5rem;
+  background-color: #848693;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+button {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(224, 224, 200);
+}
+
+button:active {
+  background-color: rgba(224, 224, 224, 0.8);
+}
+
+.orange button {
+  background: rgb(245, 144, 62);
+}
+
+.orange button:hover {
+  background: rgba(245, 144, 62, 0.7);
+}
+
+.orange button:active {
+  background: rgba(245, 144, 62, 0.4);
+}
