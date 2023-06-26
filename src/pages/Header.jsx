@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 const Header = () => (
   <div className="container">
     <div className="flex-header">
-      <h1 style={{ color: 'red' }}>Maths App</h1>
+      <h1 style={{ color: 'rgba(245, 144, 62, 0.7)' }}>Maths App</h1>
       <nav className="nav">
         <ul style={{ display: 'flex', gap: '2rem' }} className="navList">
           <li>
